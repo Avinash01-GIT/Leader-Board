@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Leader Board</title>
+</head>
+<body>
+<main>
+  <h1>Leader Board</h1>
+  <form id="player-info">
+    <div>
+      <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+    </div>
+    <div>
+      <input type="text" id="last-name" placeholder="Last Name">
+    </div>
+    <div>
+      <input type="text" id="country" placeholder="Country" required>
+    </div>
+
+    <div>
+      <input type="number" id="score" placeholder="Score" max="100" min="0">
+    </div>
+    <button type="submit">Add Player</button>
+  </form>
+  <ul id="player-list"></ul>
+</main>
+<script src="./script.js"></script>
+</body>
+</html>
